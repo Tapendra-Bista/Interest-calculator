@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.depositInterest.FragmentInstalment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:scrollbars="vertical"
+    tools:ignore="VisualLintBounds">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="18dp"
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fonts"
+                android:text="Monthly EMI"
+                android:textColor="@color/Text_white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextContrastCheck" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="0dp"
+
+                />
+
+            <TextView
+                android:id="@+id/emiid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fonts"
+                android:text="Rs. 100.0"
+                android:textColor="@color/Text_white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextContrastCheck" />
+
+        </LinearLayout>
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/irid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fonts"
+                android:text="@string/pp"
+                android:textColor="@color/Text_white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextContrastCheck" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="0dp"
+
+                />
+
+            <TextView
+                android:id="@+id/principalid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fonts"
+                android:text="Rs. 100.0"
+                android:textColor="@color/Text_white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextContrastCheck" />
+
+        </LinearLayout>
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fonts"
+                android:text="Interest Payable"
+                android:textColor="@color/Text_white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextContrastCheck" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="0dp"
+
+                />
+
+            <TextView
+                android:id="@+id/inpayableid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fonts"
+                android:text="Rs. 100.0"
+                android:textColor="@color/Text_white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextContrastCheck" />
+
+        </LinearLayout>
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fonts"
+                android:text="@string/tap"
+                android:textColor="@color/Text_white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextContrastCheck" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="0dp"
+
+                />
+
+            <TextView
+                android:id="@+id/tapid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fonts"
+                android:text="Rs. 100.0"
+                android:textColor="@color/Text_white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextContrastCheck" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/style1"
+        android:orientation="vertical"
+        android:paddingHorizontal="18dp"
+        android:paddingVertical="25dp"
+        tools:ignore="TextSizeCheck">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fonts"
+            android:text="@string/lnamount"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rupees"
+            android:textColor="@color/gray1"
+            android:textSize="15sp"
+            tools:ignore="TextContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/style2"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/rupeesid"
+                android:layout_width="275dp"
+                android:layout_height="48dp"
+                android:paddingHorizontal="10dp"
+
+                android:backgroundTint="@android:color/transparent"
+                android:fontFamily="@font/fonts"
+                android:inputType="number"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <TextView
+                android:layout_width="53dp"
+                android:layout_height="48dp"
+                android:layout_gravity="end"
+                android:background="@drawable/style3"
+                android:fontFamily="@font/fonts"
+                android:gravity="center"
+                android:text="Rs"
+                android:textColor="@color/Text_white"
+                android:textSize="15sp"
+
+                tools:ignore="HardcodedText,TextContrastCheck" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fonts"
+            android:text="@string/interestRate"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/annum"
+            android:textColor="@color/gray1"
+            android:textSize="15sp"
+            tools:ignore="TextContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/style2"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/irateid"
+                android:layout_width="275dp"
+                android:layout_height="48dp"
+                android:paddingHorizontal="10dp"
+
+
+                android:backgroundTint="@android:color/transparent"
+                android:fontFamily="@font/fonts"
+                android:inputType="phone"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="53dp"
+                android:layout_height="48dp"
+                android:layout_gravity="end"
+                android:background="@drawable/style3"
+                android:fontFamily="@font/fonts"
+                android:gravity="center"
+                android:text="%"
+                android:textColor="@color/Text_white"
+
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextContrastCheck" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fonts"
+            android:text="@string/lnTenure"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/months"
+            android:textColor="@color/gray1"
+            android:textSize="15sp"
+            tools:ignore="TextContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/style2"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mothsid"
+                android:layout_width="275dp"
+                android:layout_height="48dp"
+                android:paddingHorizontal="10dp"
+                android:fontFamily="@font/fonts"
+                android:inputType="number"
+                android:backgroundTint="@android:color/transparent"
+
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="53dp"
+                android:layout_height="48dp"
+                android:layout_gravity="end"
+                android:background="@drawable/style3"
+                android:fontFamily="@font/fonts"
+                android:gravity="center"
+                android:text="🗓"
+                android:textColor="@color/Text_white"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText,TextContrastCheck" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/btnstyle"
+            android:gravity="center"
+            android:text="Calculate"
+            android:enabled="false"
+            android:fontFamily="@font/fonts"
+            android:textColor="@color/Text_white"
+            android:layout_marginBottom="10dp"
+            tools:ignore="HardcodedText,TextContrastCheck" />
+    </LinearLayout>
+</LinearLayout>
+

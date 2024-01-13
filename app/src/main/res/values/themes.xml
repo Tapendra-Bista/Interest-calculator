@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="Base.Theme.depositInterest" parent="Theme.AppCompat.Light.DarkActionBar">
+       <item name="android:statusBarColor">@color/bar_color</item>
+    </style>
+
+    <style name="Theme.depositInterest" parent="Base.Theme.depositInterest" />
+
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/fonts</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">11.37sp</item>
+    </style>
+</resources>

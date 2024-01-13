@@ -1,0 +1,32 @@
+<resources >
+    <string name="app_name">Interest Calculator</string>
+    <string name="depositType">Deposit Type</string>
+    <string name="depositAmount">Deposit Amount</string>
+    <string name="interestRate">Interest Rate</string>
+    <string name="depositTenure">Deposit Tenure</string>
+    <string name="rupees">in rupees</string>
+    <string name="annum">\*per annum</string>
+    <string name="months">in months</string>
+
+    <string-array name="depositTypeList">
+        <item>Individual</item>
+        <item>Corporate</item>
+
+    </string-array>
+    <string name="cTime">Compound Time</string>
+    <string-array name="compoundTime">
+        <item>Yearly</item>
+        <item>Semi-anually</item>
+        <item>Quarterly</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <string name="pp">Principal</string>
+    <string name="ir">Interest\nReceivable</string>
+    <string name="ta">Tax Amount</string>
+    <string name="tar">Total Amount\nReceivable</string>
+    <string name="tap">Total Amount\nPayable</string>
+    <string name="lnamount">Loan Amount</string>
+    <string name="lnTenure">Loan Tenure</string>
+
+</resources>
